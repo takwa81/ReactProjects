@@ -1,0 +1,24 @@
+:root {
+    --primary: #007bff ;
+    --secondary:#3d3f40;
+    --success:#3BAE4F;
+    --danger:#dc3545;
+    --warning:#ffc107;
+    --info:#17a2b8;
+    --light:#f8f9fa;
+    --dark:#343a40;
+    --link:transparent;
+    --black: #111;
+    --gray:#aaa;
+    --sliver:#ddd;
+    --darken-01: rgba(0,0,0,.0625);
+    --darken-02:rgba(0,0,0,.125);
+    --primary-color: #3BAE4F ;
+    --secondary-color:#3d3f40;
+    --title-color:#111;
+    --card-color:#fefefe ;
+    --card-bg-01: #fdefe6;
+    --card-bg-02: #d6e5fb;
+    --card-bg-03: #ceebe9;
+    --card-bg-04: #e2f2b2;
+   }

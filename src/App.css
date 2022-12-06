@@ -1,0 +1,11 @@
+@import url('./Structure/variables.css');
+@import url('./Structure/structure.css');
+
+html{
+    height: "-webkit-fill-available";
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
