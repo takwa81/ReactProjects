@@ -1,8 +1,8 @@
 .category-mobile{
     padding: 10px;
-    position: fixed;
+    /* position: fixed;
     top: 0px;
-    left: -12px;
+    left: -12px; */
     overflow-x: hidden;
     overflow-y: hidden;  
 }

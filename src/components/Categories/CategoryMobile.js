@@ -4,12 +4,10 @@ import './category.css'
 import { motion } from "framer-motion";
 const CategoryMobile = () => {
 
-    const Style ={
-        background: "var(--card-color)" ,
-    }
+  
     return (
 
-        <div className="category-mobile mb-3"  id="category-scroll" style={Style}>
+        <div className="category-mobile mt-3 mb-3"  id="category-scroll" >
             <ul className="list category-container">
                 <li>
                     <motion.img whileHover={{scale:1.1}} src={CategoryImage} width="50px" height="50px" className="rounded-circle" />

@@ -17,7 +17,7 @@
 }
 
 
-form{
+form {
     position: relative !important;
 }
 
@@ -29,23 +29,41 @@ form{
     position: relative;
 }
 
-.menu-mobile{
+.menu-mobile {
     display: none;
 }
 
 @media only screen and (max-width:600px) {
-    .menu{
+    .menu {
         display: none;
     }
 
-    .menu-mobile{
+    .menu-mobile {
         display: block;
     }
 
-    .main{
+    .menu-mobile .icon-list {
+        padding: 5px;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: -12px;
+        width: 100%;
+    }
+
+    .menu-mobile .nav-list{
+        margin-top: 1rem;
+    }
+    .menu-mobile .icon-list .icon {
+        background: #bfbcbc;
+        padding: 6px;
+
+    }
+
+    .main {
         padding: 10px !important;
     }
-    
+
 }
 
 
@@ -66,13 +84,14 @@ form{
     padding-left: 2.5rem !important;
 }
 
-.form-search .form-control{
+.form-search .form-control {
     border-radius: 10px 0px 0px 10px !important;
 }
 
-.form-search a{
+.form-search a {
     border-radius: 0px 10px 10px 0px;
 }
+
 .nav-list form {
     position: relative;
 }
@@ -89,121 +108,132 @@ form{
     width: 40px;
 }
 
-.icon-list{
+.icon-list {
 
     padding: 0;
     margin: 0;
 }
-.nav-list{
+
+.nav-list {
     padding: 0;
     margin: 0;
 }
 
 
-.banner{
+.banner {
     height: auto;
 }
 
-.banner .row{
+.banner .row {
     height: 100%;
     /* padding: 10px; */
 }
 
-.banner2{
+.banner2 {
     background: #ffffff;
     height: 100%;
     border-radius: 15px;
 }
 
-.banner-01 , .banner-02{
+.banner-01,
+.banner-02 {
     background: #ffffff;
     height: 48%;
     border-radius: 15px;
 }
-.banner-01{
+
+.banner-01 {
     margin-bottom: 12px;
 }
-.banner-02{
+
+.banner-02 {
     margin-bottom: 12px;
 }
 
 @media only screen and (max-width:770px) {
-    .banner2{
+    .banner2 {
         margin-top: 12px;
     }
 }
-.banner2 .text p{
+
+.banner2 .text p {
     font-size: 1rem;
     font-weight: 500;
 }
 
-.banner2 .text h3{
+.banner2 .text h3 {
     font-size: 1.5rem;
 }
 
 
-.banner2 .text{
+.banner2 .text {
     margin-left: 15px;
 }
 
-.banner2 img{
+.banner2 img {
     height: 100%;
 
 }
 
-.banner .text{
+.banner .text {
     padding-top: 1rem;
 }
-.banner-02 .text , .banner-01 .text{
+
+.banner-02 .text,
+.banner-01 .text {
     padding-left: 10px;
 }
 
-.banner-02 img , .banner-01 img{
+.banner-02 img,
+.banner-01 img {
     height: 100px;
 }
 
-.banner-02 .text p{
+.banner-02 .text p {
     font-size: 0.8rem;
     margin: 0;
 }
 
-.banner-02 .text span{
+.banner-02 .text span {
     font-size: 1rem;
     font-weight: 500;
 }
-.banner-02 .text button{
+
+.banner-02 .text button {
     font-size: 0.5rem;
 }
 
 
 
-.banner-01 .text p{
+.banner-01 .text p {
     font-size: 0.8rem;
     margin: 0;
 }
 
-.banner-01 .text span{
+.banner-01 .text span {
     font-size: 1rem;
     font-weight: 500;
 }
-.banner-01 .text button{
+
+.banner-01 .text button {
     font-size: 0.5rem;
 }
 
 
 /* Home */
 
-.title span{
+.title span {
     font-size: 1.6rem;
     font-weight: 600;
 }
-.see{
+
+.see {
     justify-content: flex-end;
 }
 
 
 
-.btn-see{
+.btn-see {
     background: #fff !important;
     border-radius: 20px !important;
     padding: 5px 20px;
@@ -212,34 +242,37 @@ form{
 }
 
 @media only screen and (max-width:768px) {
-    .category{
+    .category {
         display: none;
     }
-    .icon-list{
+
+    .icon-list {
         justify-content: flex-start;
     }
-    .btn-see{
+
+    .btn-see {
         float: left;
     }
 }
+
 @media only screen and (max-width:960px) {
-    .category h3{
+    .category h3 {
         font-size: 1rem;
     }
-    
+
 }
 
-.card-body h4{
+.card-body h4 {
     font-size: 1rem;
     cursor: pointer;
 }
 
-.card-style{
+.card-style {
     background: var(--card-color);
     border-radius: 15px;
 }
 
-.img-card{
+.img-card {
     width: 100%;
     height: 150px;
 }
@@ -248,21 +281,21 @@ form{
 
 /* category-mobile */
 
-.category-mobile{
+.category-mobile {
     display: none;
 }
 
 @media only screen and (max-width:768px) {
-    .category-mobile{
+    .category-mobile {
         display: block;
         width: 100%;
     }
-  .main{
+
+    /* .main{
     margin-top: 4.5rem !important;
-  }
+  } */
 
 }
 
 
 /* Product */
-

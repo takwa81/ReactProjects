@@ -14,11 +14,11 @@ const Home = () =>{
         <Row className="h-100">
             <Col md='2' className="">
                 <CategoryList />
-                <CategoryMobile/>
 
             </Col>
             <Col md='10' className="main p-3">
                 <Menu />
+                <CategoryMobile/>
                 <Banner/>
                 <section className="popular-items mt-5">
                         <Row>
