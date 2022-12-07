@@ -9,14 +9,14 @@ import { motion } from "framer-motion";
 const Banner = () =>{
 
  return(
-    <section className="banner mt-3">
+    <section className="banner">
     <Row>
         <Col lg='6' md='6'>
             <div className="banner-01 p-2 d-flex">
             
             <div className="text">
                 <p className="primary-color">50% Off for 14 days</p>
-                    <span>Order Your Favourite Groceries</span>
+                    <h3>Order Your Favourite Groceries</h3>
                     <br />
                     <Button color="success">Shop Now</Button>
                 </div>
@@ -26,7 +26,7 @@ const Banner = () =>{
             
                 <div className="text">
                 <p className="primary-color">50% Off for 14 days</p>
-                    <span>Order Your Favourite Groceries</span>
+                    <h3>Order Your Favourite Groceries</h3>
                     <br />
                     <Button color="success">Shop Now</Button>
                 </div>

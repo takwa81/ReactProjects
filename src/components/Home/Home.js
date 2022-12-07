@@ -7,6 +7,7 @@ import Banner from "../Banners/Banner";
 import ProductList from "../Products/ProductList";
 import CategoryMobile from "../Categories/CategoryMobile";
 import { motion } from "framer-motion";
+import MenuMobile from "../Menu/MenuMobile";
 
 const Home = () =>{
     return(
@@ -18,9 +19,9 @@ const Home = () =>{
             </Col>
             <Col md='10' className="main p-3">
                 <Menu />
-                <CategoryMobile/>
+                <MenuMobile />
                 <Banner/>
-                <section className="popular-items mt-5">
+                <section className="popular-items mt-3">
                         <Row>
                             <Col md='6'>
                                 <h4>Popular Items</h4>

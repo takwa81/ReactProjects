@@ -33,7 +33,7 @@ form {
     display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:768px) {
     .menu {
         display: none;
     }
@@ -42,24 +42,27 @@ form {
         display: block;
     }
 
-    .menu-mobile .icon-list {
-        padding: 5px;
+    .menu-mobile {
         background: white;
+        padding-top: 10px;
+        border-radius: 10px;
         position: fixed;
         top: 0;
-        left: -12px;
-        width: 100%;
+        left: 0;
+        right: 12px;
     }
 
-    .menu-mobile .nav-list{
+    /* .menu-mobile .nav-list{
         margin-top: 1rem;
-    }
+    } */
     .menu-mobile .icon-list .icon {
         background: #bfbcbc;
         padding: 6px;
 
     }
-
+    .banner{
+        margin-top: 12rem !important;
+    }
     .main {
         padding: 10px !important;
     }
@@ -122,8 +125,12 @@ form {
 
 .banner {
     height: auto;
+    margin-top: 1rem;
 }
 
+.banner a{
+    font-size: 0.8rem !important;
+}
 .banner .row {
     height: 100%;
     /* padding: 10px; */
@@ -142,6 +149,10 @@ form {
     border-radius: 15px;
 }
 
+.banner-01 h3 , .banner-02 h3{
+    font-size: 1rem !important;
+
+}
 .banner-01 {
     margin-bottom: 12px;
 }
@@ -150,6 +161,9 @@ form {
     margin-bottom: 12px;
 }
 
+.banner2 img , .banner-01 img , .banner-02 img {
+    margin: auto;
+}
 @media only screen and (max-width:770px) {
     .banner2 {
         margin-top: 12px;
@@ -179,10 +193,7 @@ form {
     padding-top: 1rem;
 }
 
-.banner-02 .text,
-.banner-01 .text {
-    padding-left: 10px;
-}
+
 
 .banner-02 img,
 .banner-01 img {
@@ -277,6 +288,9 @@ form {
     height: 150px;
 }
 
+.img-card img{
+    margin: auto;
+}
 
 
 /* category-mobile */

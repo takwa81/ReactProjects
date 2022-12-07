@@ -7,7 +7,7 @@ const CategoryMobile = () => {
   
     return (
 
-        <div className="category-mobile mt-3 mb-3"  id="category-scroll" >
+        <div className="category-mobile"  id="category-scroll" >
             <ul className="list category-container">
                 <li>
                     <motion.img whileHover={{scale:1.1}} src={CategoryImage} width="50px" height="50px" className="rounded-circle" />

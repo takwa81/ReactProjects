@@ -6,7 +6,7 @@ const ProductList = (props) => {
 
     const { products } = props;
     return (
-        <Container className="container-fluid mt-5">
+        <Container className="container-fluid mt-3">
             <Row className="justify-content-center">
                 <ProductItem />
             </Row>
