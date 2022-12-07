@@ -55,6 +55,8 @@ form {
 
     .menu-mobile .bg-menu{
         background: white;
+        padding-bottom: 1px;
+        margin-bottom: 5px;
     }
     .menu-mobile .icon-list{
         padding: 10px
@@ -69,7 +71,7 @@ form {
         margin: 1.3rem;
     }
     .banner{
-        margin-top: 13rem !important;
+        margin-top: 13.7rem !important;
     }
     .main {
         padding: 10px !important;

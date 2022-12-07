@@ -26,7 +26,6 @@ const MenuMobile = () =>{
               </li>
           </ul>
           <CategoryMobile/>
-          </div>
           <ul className="list flex-2 display-flex flex-start nav-list">
               <li>
                   <form className="d-flex form-search">
@@ -38,7 +37,7 @@ const MenuMobile = () =>{
               </li>
 
           </ul>
-
+          </div>
       </div>
 
     )
