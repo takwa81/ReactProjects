@@ -9,8 +9,8 @@ const MenuMobile = () =>{
     return(
 
           <div className="flex-row menu-mobile">
-
-          <ul className="list icon-list display-flex justify-content-center flex-1">
+            <div className="bg-menu">
+          <ul className="list icon-list display-flex flex-end flex-1">
               <li>
                   <div className="icon"><i class="ri-mist-fill"></i></div>
               </li>
@@ -26,7 +26,7 @@ const MenuMobile = () =>{
               </li>
           </ul>
           <CategoryMobile/>
-          <br></br>
+          </div>
           <ul className="list flex-2 display-flex flex-start nav-list">
               <li>
                   <form className="d-flex form-search">

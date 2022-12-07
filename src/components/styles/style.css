@@ -43,25 +43,33 @@ form {
     }
 
     .menu-mobile {
-        background: white;
+        /* background: white; */
         padding-top: 10px;
         border-radius: 10px;
         position: fixed;
-        top: 0;
+        top: -10px;
         left: 0;
         right: 12px;
     }
 
-    /* .menu-mobile .nav-list{
-        margin-top: 1rem;
-    } */
+
+    .menu-mobile .bg-menu{
+        background: white;
+    }
+    .menu-mobile .icon-list{
+        padding: 10px
+    }
     .menu-mobile .icon-list .icon {
         background: #bfbcbc;
         padding: 6px;
 
     }
+
+    .menu-mobile .nav-list{
+        margin: 1.3rem;
+    }
     .banner{
-        margin-top: 12rem !important;
+        margin-top: 13rem !important;
     }
     .main {
         padding: 10px !important;
@@ -117,10 +125,6 @@ form {
     margin: 0;
 }
 
-.nav-list {
-    padding: 0;
-    margin: 0;
-}
 
 
 .banner {
@@ -181,7 +185,8 @@ form {
 
 
 .banner2 .text {
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    margin: auto;
 }
 
 .banner2 img {
@@ -190,7 +195,8 @@ form {
 }
 
 .banner .text {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
+    margin: auto;
 }
 
 
@@ -257,10 +263,7 @@ form {
         display: none;
     }
 
-    .icon-list {
-        justify-content: flex-start;
-    }
-
+  
     .btn-see {
         float: left;
     }

@@ -17,7 +17,6 @@ const Banner = () =>{
             <div className="text">
                 <p className="primary-color">50% Off for 14 days</p>
                     <h3>Order Your Favourite Groceries</h3>
-                    <br />
                     <Button color="success">Shop Now</Button>
                 </div>
                 <motion.img whileHover={{scale:1.1}}  src={Banner01} width="50%" height="50%"></motion.img>
@@ -27,7 +26,6 @@ const Banner = () =>{
                 <div className="text">
                 <p className="primary-color">50% Off for 14 days</p>
                     <h3>Order Your Favourite Groceries</h3>
-                    <br />
                     <Button color="success">Shop Now</Button>
                 </div>
                 <motion.img whileHover={{scale:1.1}}  src={Banner02} width="50%" height="50%"></motion.img>
@@ -39,7 +37,6 @@ const Banner = () =>{
                 <div className="text">
                 <p className="primary-color">50% Off for 14 days</p>
                     <h3>Order Your Favourite Groceries</h3>
-                    <br/>
                     <Button color="success">Shop Now</Button>
                 </div>
                 
