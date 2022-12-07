@@ -3,14 +3,12 @@
     overflow-x: hidden;
     overflow-y: hidden;  
 }
-
 .category-container{
     display: flex;
     /* gap: 10px; */
     align-items: center;
     justify-content: center;
 }
-
 .category-container li{
     padding: 5px;
 }
@@ -34,7 +32,6 @@
    border-radius: 10px;
    background-color: #fffcfc;
 }
-
 #category-scroll::-webkit-scrollbar
 {
     height: 5px;
@@ -47,7 +44,6 @@
     background-color: #a19b9b;
 
 }
-
 
 .category-name{
     font-size: 0.9rem;

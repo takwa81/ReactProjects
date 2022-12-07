@@ -4,8 +4,6 @@
     margin: 0;
     color: var(--secondary);
 }
-
-
 .category-item {
     padding-top: 0.8rem;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
@@ -73,10 +71,7 @@ form {
     .main {
         padding: 10px !important;
     }
-
 }
-
-
 .nav-list li:first-child {
     width: 100%;
 }
