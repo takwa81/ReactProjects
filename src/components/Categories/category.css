@@ -1,15 +1,12 @@
 .category-mobile{
-    padding: 10px;
-    /* position: fixed;
-    top: 0px;
-    left: -12px; */
+  
     overflow-x: hidden;
     overflow-y: hidden;  
 }
 
 .category-container{
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     align-items: center;
     justify-content: center;
 }
@@ -19,7 +16,7 @@
 }
 
 .category-container img{
-    border: 3px solid gray;
+    border: 3px solid transparent;
 }
 
 
@@ -53,6 +50,6 @@
 
 
 .category-name{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }

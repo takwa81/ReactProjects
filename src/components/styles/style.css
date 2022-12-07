@@ -55,23 +55,20 @@ form {
 
     .menu-mobile .bg-menu{
         background: white;
-        padding-bottom: 1px;
         margin-bottom: 5px;
+        padding: 10px;
     }
-    .menu-mobile .icon-list{
-        padding: 10px
-    }
+   
     .menu-mobile .icon-list .icon {
-        background: #bfbcbc;
         padding: 6px;
-
     }
 
-    .menu-mobile .nav-list{
-        margin: 1.3rem;
+    .menu-mobile .nav-list .form-control , .menu-mobile .nav-list span{
+        font-size: 0.8rem;
+        top: 0;
     }
     .banner{
-        margin-top: 13.7rem !important;
+        margin-top: 10.7rem !important;
     }
     .main {
         padding: 10px !important;
@@ -111,7 +108,7 @@ form {
 
 .icon {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 8px;
     background: #fff;
     border-radius: 50px;
@@ -135,7 +132,7 @@ form {
 }
 
 .banner a{
-    font-size: 0.8rem !important;
+    font-size: 0.5rem !important;
 }
 .banner .row {
     height: 100%;
