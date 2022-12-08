@@ -1,5 +1,6 @@
 @import url('./Structure/variables.css');
 @import url('./Structure/structure.css');
+@import url('./components/styles/style.css');
 
 html{
     height: "-webkit-fill-available";

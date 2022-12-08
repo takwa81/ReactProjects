@@ -14,7 +14,6 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-
 form {
     position: relative !important;
 }
@@ -104,8 +103,8 @@ form {
 .icon {
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 8px;
-    background: #fff;
+    padding: 6px;
+    /* background: #fff; */
     border-radius: 50px;
     margin: 0px 5px;
     text-align: center;
@@ -310,3 +309,9 @@ form {
 
 
 /* Product */
+/* Loading */
+
+.spinner{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
