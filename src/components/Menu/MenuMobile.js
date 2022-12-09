@@ -1,4 +1,5 @@
 import React from "react";
+import { CategoriesApi } from "../../Data/Api/Data";
 import Avatar from '../../Data/images/avatar.png'
 import Button from '../../Structure/Button/Button';
 import CategoryMobile from "../Categories/CategoryMobile";
@@ -6,6 +7,7 @@ import CategoryMobile from "../Categories/CategoryMobile";
 
 const MenuMobile = () =>{
 
+    const {categories} = CategoriesApi();
     return(
 
           <div className="flex-row menu-mobile">
@@ -25,7 +27,8 @@ const MenuMobile = () =>{
                   <img src={Avatar} width="40px" height="40px" className="rounded-circle" />
               </li>
           </ul>
-          <CategoryMobile/>
+          <CategoryMobile categories={categories}/>
+
           <ul className="list flex-2 display-flex flex-start nav-list">
               <li>
                   <form className="d-flex form-search">
