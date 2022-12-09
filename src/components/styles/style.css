@@ -67,6 +67,9 @@ form {
     .banner{
         margin-top: 10.7rem !important;
     }
+    .banner a{
+        font-size: 0.5rem !important;
+    }
     .main {
         padding: 10px !important;
     }
@@ -125,9 +128,7 @@ form {
     margin-top: 1rem;
 }
 
-.banner a{
-    font-size: 0.5rem !important;
-}
+
 .banner .row {
     height: 100%;
     /* padding: 10px; */
@@ -255,7 +256,6 @@ form {
     .category {
         display: none;
     }
-
   
     .btn-see {
         float: left;
