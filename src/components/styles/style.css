@@ -5,8 +5,20 @@
     color: var(--secondary);
 }
 .category-item {
-    padding-top: 0.8rem;
+    padding: 10px;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+/* .category-item a{
+    height: auto;
+    cursor: pointer;
+} */
+.category-item:active{
+   background: rgba(210,165,53,1);
+   color: #ffffff;
+   border-radius: 15px;
+   font-size: 1.2rem; 
 }
 
 .main {
@@ -57,7 +69,15 @@ form {
     }
    
     .menu-mobile .icon-list .icon {
-        padding: 6px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding: 6px;
+            /* background: #fff; */
+            border-radius: 50px;
+            margin: 0px 5px;
+            text-align: center;
+            color: var(--secondary-color);
+            width: 40px;
     }
 
     .menu-mobile .nav-list .form-control , .menu-mobile .nav-list span{
@@ -92,28 +112,32 @@ form {
 }
 
 .form-search .form-control {
-    border-radius: 10px 0px 0px 10px !important;
+    border-radius: 0px 10px 10px 0px !important;
+    padding: 0.375rem 2.75rem !important;
 }
 
 .form-search a {
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .nav-list form {
     position: relative;
 }
 
+
+
 .icon {
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 6px;
-    /* background: #fff; */
+    padding: 0px;
+    background: #fff;
     border-radius: 50px;
     margin: 0px 5px;
     text-align: center;
     color: var(--secondary-color);
     width: 40px;
 }
+
 
 .icon-list {
 
@@ -202,7 +226,7 @@ form {
 
 .banner-02 .text p {
     font-size: 0.8rem;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .banner-02 .text span {
@@ -218,7 +242,7 @@ form {
 
 .banner-01 .text p {
     font-size: 0.8rem;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .banner-01 .text span {
@@ -249,7 +273,23 @@ form {
     border-radius: 20px !important;
     padding: 5px 20px;
     border: 1px solid #fff;
-    float: right;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-see:hover {
+    background: #fff !important;
+    border-radius: 20px !important;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    color:rgba(210,165,53,1);
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+.btn-see i{
+    position: absolute;
 }
 
 @media only screen and (max-width:768px) {
@@ -314,4 +354,37 @@ form {
 .spinner{
     font-size: 3rem;
     margin-top: 1.5rem;
+}
+
+
+
+/* ********************************************************* */
+                        /* Shimmer Css */
+/* ********************************************************* */
+
+.loader .value{
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    /* background: linear-gradient(to right , #F6F6F6 8% , #F0F0F0 18% , #F6F6F6 33% ); */
+    background: #d9c2c280;
+    background-size: 1200px 100%;
+    height: 12px;
+    border-radius: 15px;
+}
+
+.loader .img-card {
+    height: 180px;
+    width: 100%;
+}
+
+@keyframes shimmer{
+    0%{
+        background-size: -1200px 0 ;
+    }
+    100%{
+        background-size: 1200px 0 ;
+    }
 }

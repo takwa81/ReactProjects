@@ -4,7 +4,7 @@ import Banner from "../Banners/Banner";
 import ProductList from "../Products/ProductList";
 import { motion } from "framer-motion";
 import ProductsApi from "../../Data/Api/Data";
-import Loading from "../Loading/Loading";
+import ProductShimmer from "../Loading/ProductShimmer";
 
 const Home = () => {
 
@@ -17,14 +17,14 @@ const Home = () => {
             <section className="popular-items mt-3">
                 <Row>
                     <Col md='6'>
-                        <h4>Popular Items</h4>
+                        <h4>أشهر المنتجات</h4>
                     </Col>
                     <Col md='6'>
-                        <motion.button whileTap={{ scale: 1.2 }} className="btn-see primary-color">See All <i class="ri-arrow-right-fill"></i></motion.button>
+                        <motion.a whileTap={{ scale: 1.2 }} className="btn-see primary-color" >  عرض الكل <i class="ri-arrow-left-line"></i></motion.a>
                     </Col>
                 </Row>
                 {
-                    loading ? <Loading></Loading>: <ProductList products={products}></ProductList>
+                    loading ? <ProductShimmer></ProductShimmer>: <ProductList products={products}></ProductList>
                 }
             </section>
         </>

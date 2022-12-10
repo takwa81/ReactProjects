@@ -11,8 +11,9 @@ import Loading from "../Loading/Loading";
 const Layout = () => {
     const {categories} = CategoriesApi();
     const Style = {
-        background: "-webkit-gradient(linear , left top , left bottom , from(#d2f370), to(#d3657e))",
+        background: "linear-gradient(0deg, rgba(237,185,56,1) 0%, rgba(246,250,105,1) 52%)",
     }
+   
 
     return (
         <div className="gradient-container" style={Style}>

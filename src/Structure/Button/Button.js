@@ -2,7 +2,7 @@ import React from "react";
 import './button.css';
 import {motion} from 'framer-motion';
 const Button = (props)=>{
-    const {text , color} = props ;
+    const {to , color} = props ;
     const getClass = () =>{
         switch(color){
             case 'primary':
@@ -44,7 +44,7 @@ const Button = (props)=>{
     
     }
     return(
-        <motion.a whileTap={{scale:1.2}} className={`${getClass()} button`}>{props.children}</motion.a>
+        <motion.a href={to} whileTap={{scale:1.2}} className={`${getClass()} button`}>{props.children}</motion.a>
     );
 }
 

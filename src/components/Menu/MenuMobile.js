@@ -1,6 +1,6 @@
 import React from "react";
 import { CategoriesApi } from "../../Data/Api/Data";
-import Avatar from '../../Data/images/avatar.png'
+// import Avatar from '../../Data/images/avatar.png'
 import Button from '../../Structure/Button/Button';
 import CategoryMobile from "../Categories/CategoryMobile";
 
@@ -14,18 +14,18 @@ const MenuMobile = () =>{
             <div className="bg-menu">
           <ul className="list icon-list display-flex flex-end flex-1">
               <li>
-                  <div className="icon"><i class="ri-mist-fill"></i></div>
+                  <div className="icon"><i class="ri-whatsapp-fill"></i></div>
               </li>
               <li>
-                  <div className="icon"><i class="ri-heart-line"></i></div>
+                  <div className="icon"><i class="ri-map-pin-fill"></i></div>
               </li>
               <li>
-                  <div className="icon"><i class="ri-chat-heart-line"></i></div>
+                  <div className="icon"><i class="ri-phone-fill"></i></div>
               </li>
 
-              <li>
+              {/* <li>
                   <img src={Avatar} width="40px" height="40px" className="rounded-circle" />
-              </li>
+              </li> */}
           </ul>
           <CategoryMobile categories={categories}/>
 
@@ -34,8 +34,8 @@ const MenuMobile = () =>{
                   <form className="d-flex form-search">
                       <span className="fa fa-search form-control-feedback"></span>
                       <input className="form-control" type="search"
-                          placeholder="Search your groceries items" aria-label="Search" />
-                      <Button color="success">Search</Button>
+                          placeholder="بحث عن منتجات" aria-label="Search" />
+                      <Button color="success">بحث</Button>
                   </form>
               </li>
 

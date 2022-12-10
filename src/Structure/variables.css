@@ -1,7 +1,7 @@
 :root {
     --primary: #007bff ;
     --secondary:#3d3f40;
-    --success:#3BAE4F;
+    --success:rgba(210,165,53,1);
     --danger:#dc3545;
     --warning:#ffc107;
     --info:#17a2b8;
@@ -13,7 +13,7 @@
     --sliver:#ddd;
     --darken-01: rgba(0,0,0,.0625);
     --darken-02:rgba(0,0,0,.125);
-    --primary-color: #3BAE4F ;
+    --primary-color: rgba(210,165,53,1) ;
     --secondary-color:#3d3f40;
     --title-color:#111;
     --card-color:#fefefe ;

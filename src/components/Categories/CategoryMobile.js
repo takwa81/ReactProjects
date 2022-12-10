@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import CategoryImage from '../../Data/images/f1.png'
 import './category.css'
 import { motion } from "framer-motion";
 import { CategoriesApi } from "../../Data/Api/Data";
-import Loading from "../Loading/Loading";
+import CategoryMobileShimmer from "../Loading/CategoryMobileShimmer";
 const CategoryMobile = (props) => {
 
     const {categories} = props ;
@@ -13,7 +12,7 @@ const CategoryMobile = (props) => {
 
         <div className="category-mobile"  id="category-scroll" >
             <ul className="list category-container">
-            {loading ? <Loading></Loading> :
+            {loading ? <CategoryMobileShimmer></CategoryMobileShimmer> :
             (
                 categories.map((category)=>
                 <li key={category.id}>
