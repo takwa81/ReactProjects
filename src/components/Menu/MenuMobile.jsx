@@ -16,16 +16,13 @@ const MenuMobile = () =>{
               <li>
                   <div className="icon"><i class="ri-whatsapp-fill"></i></div>
               </li>
-              <li>
+              {/* <li>
                   <div className="icon"><i class="ri-map-pin-fill"></i></div>
-              </li>
+              </li> */}
               <li>
                   <div className="icon"><i class="ri-phone-fill"></i></div>
               </li>
 
-              {/* <li>
-                  <img src={Avatar} width="40px" height="40px" className="rounded-circle" />
-              </li> */}
           </ul>
           <CategoryMobile categories={categories}/>
 

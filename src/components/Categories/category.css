@@ -3,6 +3,9 @@
     overflow-x: hidden;
     overflow-y: hidden;  
 }
+.category-mobile a{
+    text-decoration: none;
+}
 .category-container{
     display: flex;
     /* gap: 10px; */

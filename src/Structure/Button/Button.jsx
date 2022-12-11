@@ -1,6 +1,7 @@
 import React from "react";
 import './button.css';
 import {motion} from 'framer-motion';
+import { Link } from "react-router-dom";
 const Button = (props)=>{
     const {to , color} = props ;
     const getClass = () =>{
@@ -44,7 +45,7 @@ const Button = (props)=>{
     
     }
     return(
-        <motion.a href={to} whileTap={{scale:1.2}} className={`${getClass()} button`}>{props.children}</motion.a>
+        <Link to={to} className={`${getClass()} button`}>{props.children}</Link>
     );
 }
 

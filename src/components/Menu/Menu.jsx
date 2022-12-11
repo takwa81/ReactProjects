@@ -1,8 +1,5 @@
 import React from "react";
-import { Col, Row } from "reactstrap";
 import Button from '../../Structure/Button/Button';
-// import Avatar from '../../Data/images/avatar.png'
-import { Link } from "react-router-dom";
 
 const Menu = () => {
     return (
@@ -18,14 +15,15 @@ const Menu = () => {
 
                         </form>
                     </li>
-                    <li>
-                        <div className="icon"><i class="ri-whatsapp-fill"></i></div>
-                    </li>
+
                 </ul>
                 <ul className="list icon-list display-flex flex-end flex-1">
                     <li>
-                        <div className="icon"><i class="ri-map-pin-fill"></i></div>
+                        <div className="icon"><i class="ri-whatsapp-fill"></i></div>
                     </li>
+                    {/* <li>
+                        <div className="icon"><i class="ri-map-pin-fill"></i></div>
+                    </li> */}
                     <li>
                         <div className="icon"><i class="ri-phone-fill"></i></div>
                     </li>
@@ -36,7 +34,7 @@ const Menu = () => {
                 </ul>
 
             </div>
-          
+
         </>
     );
 }

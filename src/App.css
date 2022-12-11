@@ -8,5 +8,15 @@ html{
 body{
     margin: 0;
     padding: 0;
+    font-family: "Geeza Pro", "Nadeem", "Al Bayan", "DecoType Naskh", "DejaVu Serif", "STFangsong", "STHeiti", "STKaiti", "STSong", "AB AlBayan", "AB Geeza", "AB Kufi", "DecoType Naskh", "Aldhabi", "Andalus", "Sakkal Majalla", "Simplified Arabic" !important;
+    /* font-family: 'Amiri', serif !important; */
+    /* font-family: 'Droid Arabic Naskh', serif !important; */
+    /* font-family: 'Droid Arabic Kufi', serif !important; */
+    /* font-family: Poppins !important; */
+    /* font-family: 'Lateef', serif !important; */
+    /* font-family: 'Scheherazade', serif !important; */
+    /* font-family:'Droid Arabic Naskh', serif; line-height:20px !important; */
+    /* font-family: 'Scheherazade', serif !important; */
+    font-size: 40px;
 }
 

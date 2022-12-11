@@ -4,13 +4,13 @@ import Config from "./Config"
 export default function ProductsApi() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(false);
+    // const [filter , setFilter] = useState(products);
     let componentMounted = true;
     const { http } = Config();
 
     const loadProducts = async () => {
         setLoading(true);
-       await http.get("/products").then((res) => {
-            
+       await http.get("/products").then((res) => {            
             if (componentMounted) {
                 setProducts(res.data);
                 setLoading(false);
@@ -30,7 +30,6 @@ export default function ProductsApi() {
             loading,
     }
 }
-
 
 
 export function CategoriesApi() {
@@ -60,4 +59,35 @@ export function CategoriesApi() {
     return {categories,
             loading,
     }
+}
+
+
+export function ConfigApi(){
+    const [config , setConfig] = useState();
+    const [loading, setLoading] = useState(false);
+    let componentMounted = true;
+    const { http } = Config();
+
+    const loadConfig = async () => {
+        setLoading(true);
+       await http.get("/config").then((res) => {
+            if (componentMounted) {
+                setConfig(res.data);
+                setLoading(false);
+            }
+            
+            return () => {
+                componentMounted = false;
+            }
+        });
+    }
+
+    useEffect(() => {
+        loadConfig();
+    }, []);
+
+    return {config,
+            loading,
+    }
+
 }

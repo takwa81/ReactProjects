@@ -5,6 +5,7 @@ import ProductList from "../Products/ProductList";
 import { motion } from "framer-motion";
 import ProductsApi from "../../Data/Api/Data";
 import ProductShimmer from "../Loading/ProductShimmer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -20,7 +21,7 @@ const Home = () => {
                         <h4>أشهر المنتجات</h4>
                     </Col>
                     <Col md='6'>
-                        <motion.a whileTap={{ scale: 1.2 }} className="btn-see primary-color" >  عرض الكل <i class="ri-arrow-left-line"></i></motion.a>
+                        <Link className="btn-see primary-color" to="/products">  عرض الكل <i class="ri-arrow-left-line"></i></Link>
                     </Col>
                 </Row>
                 {

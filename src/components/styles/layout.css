@@ -56,8 +56,8 @@
  #scroll::-webkit-scrollbar-thumb
  {
      border-radius: 10px;
-     background-color: #a19b9b;
-
+     /* background-color: #a19b9b; */
+    background-color: var(--success);
  }
  
  

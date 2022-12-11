@@ -8,15 +8,7 @@ import { Link } from "react-router-dom";
 
 const CategoryList = (props) => {
     const { categories } = props;
-    // const {products} = ProductsApi() ;
-    // const [filter , setFilter] = useState(products);
-
-    // const filterProduct =(categoryName) =>{
-    //     const updatedList = products.filter((x)=>x.categoryName === categoryName);
-    //     setFilter(updatedList);
-    // }
-
-
+  
     const { loading } = CategoriesApi();
     return (
         <>
@@ -25,19 +17,19 @@ const CategoryList = (props) => {
                 <div className="mt-3 mb-3"><h3>الأصناف</h3></div>
                 <ul className="category-list">
                     <li class="category-item" >
-                        <a>
+                        <Link to="/products">
                             {/* <motion.img whileHover={{ scale: 1.1 }} className="rounded-circle" src={category.image} width="40px" height="40px" alt="Category image" /> */}
-                            <span className="category-name" style={{ marginRight: "10px", fontSize: "1.1rem" }}>الكل</span>
-                        </a>
+                            <span className="category-name text-center" style={{ marginRight: "10px", fontSize: "1.1rem" }}>الكل</span>
+                        </Link>
                     </li>
                     {loading ? <CategoryShimmer></CategoryShimmer> :
                         (
                             categories.map((category) =>
                                 <li class="category-item" key={category.id}>
-                                    <a>
+                                    <Link to={`/products/${category.name}`}>
                                         <motion.img whileHover={{ scale: 1.1 }} className="rounded-circle" src={category.image} width="40px" height="40px" alt="Category image" />
                                         <span className="category-name" style={{ marginRight: "10px", fontSize: "1.1rem" }}>{category.name}</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             )
                         )
