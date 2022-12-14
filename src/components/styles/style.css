@@ -17,6 +17,10 @@
     color: rgba(210,165,53,1);
 }
 
+.category{
+    position: fixed;
+    width: 15%;
+}
 .active-category{
     color: rgba(210,165,53,1);
 }
@@ -62,8 +66,8 @@ form {
         border-radius: 10px;
         position: fixed;
         top: -10px;
-        left: 0;
-        right: 12px;
+        left: 13px;
+        right:0;
     }
 
 
@@ -314,7 +318,7 @@ form {
     }
   
     .btn-see {
-        float: left;
+        float: right;
     }
 }
 

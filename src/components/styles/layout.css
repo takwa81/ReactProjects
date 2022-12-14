@@ -6,7 +6,7 @@
 
 .gradient-container .content{
     width: 90%; 
-    height: 90%; 
+    height: 100%; 
     border-radius: 15px;
     position: absolute;
     top: 50%;
